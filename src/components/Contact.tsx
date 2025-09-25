@@ -39,6 +39,15 @@ const Contact = () => {
             >
               Instagram <MdArrowOutward />
             </a>
+              </a>
+            <a
+              href="https://www.instagram.com/p3x.46"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Instagram <MdArrowOutward />
+            </a>
             <a
               href="https://x.com/phoenixfy_"
               target="_blank"
@@ -71,4 +80,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

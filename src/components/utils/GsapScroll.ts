@@ -1,5 +1,9 @@
 import * as THREE from "three";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
 
 export function setCharTimeline(
   character: THREE.Object3D<THREE.Object3DEventMap> | null,
@@ -149,7 +153,6 @@ export function setAllTimeline() {
       { maxHeight: "100%", duration: 0.5 },
       0
     )
-
     .fromTo(
       ".career-timeline",
       { opacity: 0 },

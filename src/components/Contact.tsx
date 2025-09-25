@@ -32,7 +32,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/phoe1xfy"
+              href="https://www.instagram.com/phoen1xfy"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -71,3 +71,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

@@ -62,7 +62,7 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Instagram <MdArrowOutward />
+            2nd Instagram <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
@@ -80,5 +80,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
